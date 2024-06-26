@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorías de Películas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .category {
+            margin-bottom: 20px;
+        }
+        .category h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .movies {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+        .movie {
+            background-color: #f7f7f7;
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .movie:hover {
+            background-color: #e0e0e0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Categorías de Películas</h1>
+
+        <div class="category">
+            <a href="terror.html">
+            <h2 style="color: rgb(0, 0, 0);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Terror</h2>
+            </a>
+            <div class="movies">
+                <div class="movie"><ul>
+                    <li>Men: Terror En Las Sombras</li>
+                    <li>Sonrie</li>
+                    <li>La Casa Oscura</li>
+                    <li>Jack In The Box 2: El Despertar</li>
+                </ul></div>
+            </div>
+        </div>
+
+        <div class="category">
+            <a href="comedia.html">
+            <h2 style="color: rgb(219, 0, 0); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Comedia</h2>
+            </a>
+            <div class="movies">
+                <div class="movie"><ul>
+                    <li>Loco por Mary</li>
+                    <li>Supercool</li>
+                    <li>¿Qué pasó ayer?</li>
+                </ul></div>
+            </div>
+        </div>
+
+        <div class="category">
+            <a href="infantil.html">
+            <h2 style="color: #a200c7; font-family: 'Courier New', Courier, monospace;">Infantiles</h2>
+        </a>
+            <div class="movies">
+                <div class="movie"><ul>
+                    <li>INTENSAMENTE 2</li>
+                    <li>Wonka's</li>
+                    <li>Minions: Nace Un Villano2</li>
+                    <li>Kung Fu Pnada 4</li>
+                </ul></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

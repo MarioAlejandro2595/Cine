@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Películas Infantiles</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(58, 0, 58);
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden; /* Para evitar que se desborde el contenido de las imágenes */
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Bungee', sans-serif;
+            color: #740000;
+            margin-top: 20px;
+        }
+        .movie {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            overflow: hidden;
+        }
+        .movie img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            transition: transform 0.3s ease-in-out;
+        }
+        .movie img:hover {
+            transform: scale(1.05);
+        }
+        .movie h2 {
+            text-align: center;
+            font-family: 'Bungee', sans-serif;
+            color: #d00000;
+            margin-top: 10px;
+        }
+        .movie p {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: #555;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <a href="cartrelera.html">
+    <header style="text-align: center;font-size: 40px; color: rgb(255, 255, 255); font-family: fantasy;">Volver a la cartrelera</header></a>
+    <div class="container">
+        <h1>Catálogo de Películas Infantiles</h1>
+        
+        <div class="movie">
+            <a href="acientos.html" target="_blank">
+                <img src="Infantil/infantil.jpg" alt="INTENSA-MENTE 2">
+                <h2>INTENSA-MENTE 2</h2>
+                <p>Película de Disney y Pixar que sigue las aventuras de las emociones de Riley, enfrentándose a nuevas emociones y desafíos inesperados.</p>
+            </a>
+        </div>
+        
+        <div class="movie">
+            <a href="acientos.html" target="_blank">
+                <img src="Infantil/infantil1.jpg" alt="Wonka">
+                <h2>Wonka</h2>
+                <p>Basada en el personaje central de Charlie y la fábrica de chocolate, la historia de Willy Wonka y sus maravillosas creaciones.</p>
+            </a>
+        </div>
+        
+        <div class="movie">
+            <a href="acientos.html" target="_blank">
+                <img src="Infantil/infantil2.jpg" alt="Minions: Nace Un Villano 2">
+                <h2>Minions: Nace Un Villano 2</h2>
+                <p>La historia del sueño de un niño de convertirse en el supervillano más grande del mundo, protagonizada por los Minions.</p>
+            </a>
+        </div>
+
+        <div class="movie">
+            <a href="acientos.html" target="_blank">
+                <img src="Infantil/infantil3.jpg" alt="Kung Fu Panda 4">
+                <h2>Kung Fu Panda 4</h2>
+                <p>Po, el Guerrero Dragón, debe encontrar y entrenar a un nuevo Guerrero Dragón mientras enfrenta a la malvada hechicera, La Camaleona.</p>
+            </a>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
